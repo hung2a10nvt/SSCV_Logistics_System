@@ -22,6 +22,24 @@ Detected unstable condition, message sent via TelegramBot:
 
 <img src="./assets/Image1.png" />
 
+## **Performance Benchmarking**
+The system was subjected to rigorous load testing using **k6** to simulate high-traffic scenarios and evaluate the efficiency of the asynchronous message-driven architecture.
+
+### **Test Scenario**
+* **Tool:** k6
+* **Environment:** Dockerized services (Localhost).
+* **Load Profile:** 50 Concurrent Virtual Users (VUs) continuously sending requests.
+* **Test Duration:** 1 minute.
+* **System Flow:** REST API Ingestion → RabbitMQ Broker → Background Worker Processing → PostgreSQL Storage.
+
+### **Results**
+* **Total Requests Processed:** ~2,000+ requests/minute.
+* **Success Rate:** **100.00%** (Zero failures under sustained load).
+* **Average Latency:** **~2.5ms** (Ultra-fast response time).
+* **P95 Latency:** **3.28ms** (95% of all requests were served in under 3.28ms).
+
+<img src="./assets/test.png" />
+
 ## **Installation**
 1. **Prerequisites**
    
