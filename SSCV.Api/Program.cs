@@ -46,8 +46,7 @@ using (var scope = app.Services.CreateScope())
                 retryCount--;
                 if (retryCount == 0) throw; 
 
-                logger.LogWarning($"--> Lỗi kết nối: {ex.Message}");
-                logger.LogWarning("--> Đợi 3 giây rồi thử lại...");
+                logger.LogWarning($"--> Connection error: {ex.Message}");
                 System.Threading.Thread.Sleep(3000); 
             }
         }
