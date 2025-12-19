@@ -42,10 +42,10 @@
   ```
 4. **Essential Service URLs**
 - **Swagger**
-   ```bash
-   http://localhost:5294/swagger
-   ```
+```bash
+http://localhost:5294/swagger
+```
 - **RabbitMQ**
-  ```bash
-  http://localhost:15672
-  ```
+```bash
+http://localhost:15672
+```
