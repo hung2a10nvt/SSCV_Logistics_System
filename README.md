@@ -15,7 +15,9 @@
 
 ## **Installation**
 1. **Prerequisites**
-- Docker Desktop installed and running.
+   
+Docker Desktop installed and running.
+
 2. **Environment Variables Configuration**
   
   In the root dir, create a file named .env
