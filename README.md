@@ -16,11 +16,11 @@
 ## **Demo**
 Update vehicles' status:
 
-<img width="798" height="313" alt="image" src="https://github.com/user-attachments/assets/image2.png" />
+<img src="./assets/image2.png" />
 
 Detected unstable condition, message sent via TelegramBot:
 
-<img width="798" height="313" alt="image" src="https://github.com/user-attachments/assets/image1.png" />
+<img src="./assets/image1.png" />
 
 ## **Installation**
 1. **Prerequisites**
