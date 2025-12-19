@@ -13,6 +13,15 @@
 2. **Telemetry Worker**: Consumes messages from telemetry_queue -> Maps vehicle info -> Saves to Database -> Checks for violations -> Pushes to vehicle_alerts.
 3. **Alert Worker**: Consumes messages from vehicle_alerts -> Saves alert history -> Calls Telegram API to send notifications.
 
+## **Demo**
+Update vehicles' status:
+
+<img src="./assets/Image2.png" />
+
+Detected unstable condition, message sent via TelegramBot:
+
+<img src="./assets/Image1.png" />
+
 ## **Installation**
 1. **Prerequisites**
    
