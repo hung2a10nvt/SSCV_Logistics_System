@@ -1,4 +1,4 @@
-# SSCV_Logistics_System
+# Logistics Telemetry Backend System
 
 ## A real-time C# backend system for logistics that processes vehicle telemetry data and monitors vehicle statuses.
 
@@ -15,7 +15,9 @@
 
 ## **Installation**
 1. **Prerequisites**
-- Docker Desktop installed and running.
+   
+Docker Desktop installed and running.
+
 2. **Environment Variables Configuration**
   
   In the root dir, create a file named .env
