@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".env" />
+    <File Path=".env.example" />
+    <File Path=".gitignore" />
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="E:/Lab/SSCV_Logistics_System/SSCV.Api/SSCV.Api.csproj" Id="71a75647-57ed-4a1a-8c01-6edeb43b50e3" />
+  <Project Path="E:/Lab/SSCV_Logistics_System/SSCV.Application/SSCV.Application.csproj" Id="4ced954e-3338-4372-bd7d-303b9bd1900a" />
+  <Project Path="E:/Lab/SSCV_Logistics_System/SSCV.Domain/SSCV.Domain.csproj" Id="e8354e0c-c6b7-4a6f-ab5f-2725fb7d0b84" />
+  <Project Path="E:/Lab/SSCV_Logistics_System/SSCV.Infrastructure/SSCV.Infrastructure.csproj" Id="41bce2f5-e18d-4fce-8774-0e5f6ac0b5f4" />
+  <Project Path="E:/Lab/SSCV_Logistics_System/SSCV.Worker/SSCV.Worker.csproj" Id="c0004b1f-5aef-4e74-bf1e-8e89fab0298c" />
+</Solution>

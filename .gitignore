@@ -1,0 +1,12 @@
+﻿
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+bin/
+obj/
+.vs/
+.idea/
+*.user
+[Dd]ebug/
+[Rr]elease/
