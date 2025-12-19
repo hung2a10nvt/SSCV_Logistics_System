@@ -1,4 +1,4 @@
-# SSCV_Logistics_System
+# Logistics Telemetry Backend System
 
 ## A real-time C# backend system for logistics that processes vehicle telemetry data and monitors vehicle statuses.
 
