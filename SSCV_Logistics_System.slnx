@@ -4,6 +4,7 @@
     <File Path=".env.example" />
     <File Path=".gitignore" />
     <File Path="docker-compose.yml" />
+    <File Path="loadtest.js" />
   </Folder>
   <Project Path="E:/Lab/SSCV_Logistics_System/SSCV.Api/SSCV.Api.csproj" Id="71a75647-57ed-4a1a-8c01-6edeb43b50e3" />
   <Project Path="E:/Lab/SSCV_Logistics_System/SSCV.Application/SSCV.Application.csproj" Id="4ced954e-3338-4372-bd7d-303b9bd1900a" />

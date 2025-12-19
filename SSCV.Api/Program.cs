@@ -18,6 +18,8 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
 
+builder.Services.AddSingleton<SSCV.Api.Services.IRabbitMQProducer, SSCV.Api.Services.RabbitMQProducer>();
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
